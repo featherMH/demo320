@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --dropbox-blue: #0061FF;
+  --text-main: #1E293B;
+  --text-muted: #64748B;
+  --bg-light: #F8FAFC;
+  --border-color: #F1F5F9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-main);
+  background-color: var(--bg-light);
+}
+
+/* --- 側邊欄細節 --- */
+aside {
+  height: 1024px; /* 依照 Figma 指定高度 */
+}
+
+/* 隱藏捲軸但保留功能 */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 4px;
+}
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #E2E8F0;
+  border-radius: 10px;
+}
+
+/* --- 卡片與陰影 --- */
+.folder-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.folder-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.05);
+}
+
+/* --- 表格樣式修正 --- */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+th {
+  letter-spacing: 0.05em;
+}
+
+/* 讓表格在手機端滑動時更順暢 */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* --- RWD 動畫與遮罩 --- */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+
+/* 手機版抽屜滑出動畫 */
+.mobile-drawer {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --- 選單 Active 指標修正 --- */
+.active-indicator {
+  /* 這裡對應 logo-dropbox.svg 作為指標的微調 */
+  filter: drop-shadow(0 0 2px rgba(0, 97, 255, 0.2));
+}
+
+/* 頭像重疊修正 */
+.avatar-stack img {
+  box-shadow: 0 0 0 2px #fff;
+}
+
+/* 針對按鈕的微小細節 */
+button {
+  cursor: pointer;
+  user-select: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}

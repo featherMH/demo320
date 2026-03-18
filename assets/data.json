@@ -1,0 +1,174 @@
+{
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Home",
+      "icon": "assets/icons/icon-home.svg"
+    },
+    {
+      "id": "my-files",
+      "label": "My Files",
+      "icon": "assets/icons/icon-my-files.svg"
+    },
+    {
+      "id": "starred",
+      "label": "Starred",
+      "icon": "assets/icons/icon-starred.svg"
+    },
+    {
+      "id": "shared",
+      "label": "Shared",
+      "icon": "assets/icons/icon-shared.svg"
+    },
+    {
+      "id": "file-requests",
+      "label": "Files Requests",
+      "icon": "assets/icons/icon-file-requests.svg"
+    },
+    {
+      "id": "deleted",
+      "label": "Deleted",
+      "icon": "assets/icons/icon-deleted.svg"
+    }
+  ],
+  "storage": {
+    "used": 600,
+    "total": 800,
+    "unit": "GB",
+    "percentage": 75
+  },
+  "folders": [
+    {
+      "id": 1,
+      "name": "Documents",
+      "modifiedDate": "Sep 25, 2022, 13:25 PM",
+      "sharedUsers": [
+        { "name": "User 1", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 2", "avatar": "assets/avatars/avatar-2.png" },
+        { "name": "User 3", "avatar": "assets/avatars/avatar-3.png" },
+        { "name": "User 4", "avatar": "assets/avatars/avatar-4.png" },
+        { "name": "User 5", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 6", "avatar": "assets/avatars/avatar-2.png" }
+      ],
+      "sharedUsersCount": 86,
+      "insideFiles": 3985
+    },
+    {
+      "id": 2,
+      "name": "Music",
+      "modifiedDate": "Sep 25, 2022, 13:25 PM",
+      "sharedUsers": [
+        { "name": "User 1", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 2", "avatar": "assets/avatars/avatar-2.png" },
+        { "name": "User 3", "avatar": "assets/avatars/avatar-3.png" },
+        { "name": "User 4", "avatar": "assets/avatars/avatar-4.png" },
+        { "name": "User 5", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 6", "avatar": "assets/avatars/avatar-2.png" }
+      ],
+      "sharedUsersCount": 85,
+      "insideFiles": 499
+    },
+    {
+      "id": 3,
+      "name": "ProjectK",
+      "modifiedDate": "Sep 25, 2022, 13:25 PM",
+      "sharedUsers": [
+        { "name": "User 1", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 2", "avatar": "assets/avatars/avatar-2.png" },
+        { "name": "User 3", "avatar": "assets/avatars/avatar-3.png" }
+      ],
+      "sharedUsersCount": 0,
+      "insideFiles": 256
+    },
+    {
+      "id": 4,
+      "name": "Rico Media",
+      "modifiedDate": "Sep 25, 2022, 13:25 PM",
+      "sharedUsers": [
+        { "name": "User 1", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 2", "avatar": "assets/avatars/avatar-2.png" },
+        { "name": "User 3", "avatar": "assets/avatars/avatar-3.png" },
+        { "name": "User 4", "avatar": "assets/avatars/avatar-4.png" }
+      ],
+      "sharedUsersCount": 52,
+      "insideFiles": 1225
+    },
+    {
+      "id": 5,
+      "name": "New Dev",
+      "modifiedDate": "Sep 25, 2022, 13:25 PM",
+      "sharedUsers": [
+        { "name": "User 1", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 2", "avatar": "assets/avatars/avatar-2.png" },
+        { "name": "User 3", "avatar": "assets/avatars/avatar-3.png" },
+        { "name": "User 4", "avatar": "assets/avatars/avatar-4.png" }
+      ],
+      "sharedUsersCount": 22,
+      "insideFiles": 2265
+    },
+    {
+      "id": 6,
+      "name": "Files 2022",
+      "modifiedDate": "Sep 25, 2022, 13:25 PM",
+      "sharedUsers": [
+        { "name": "User 1", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 2", "avatar": "assets/avatars/avatar-2.png" },
+        { "name": "User 3", "avatar": "assets/avatars/avatar-3.png" }
+      ],
+      "sharedUsersCount": 12,
+      "insideFiles": 597
+    }
+  ],
+  "recentFiles": [
+    {
+      "id": 1,
+      "name": "Website Design.png",
+      "size": "2.8 MB",
+      "modifiedDate": "Dec 13, 2022",
+      "type": "image",
+      "icon": "assets/icons/icon-file-image.svg",
+      "sharedUsers": [
+        { "name": "User 1", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 2", "avatar": "assets/avatars/avatar-2.png" },
+        { "name": "User 3", "avatar": "assets/avatars/avatar-3.png" },
+        { "name": "User 4", "avatar": "assets/avatars/avatar-4.png" },
+        { "name": "User 5", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 6", "avatar": "assets/avatars/avatar-2.png" }
+      ],
+      "sharedUsersCount": 12
+    },
+    {
+      "id": 2,
+      "name": "UX-UI.zip",
+      "size": "242 MB",
+      "modifiedDate": "Dec 12, 2022",
+      "type": "archive",
+      "icon": "assets/icons/icon-folder.svg",
+      "sharedUsers": [
+        { "name": "User 1", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 2", "avatar": "assets/avatars/avatar-2.png" },
+        { "name": "User 3", "avatar": "assets/avatars/avatar-3.png" },
+        { "name": "User 4", "avatar": "assets/avatars/avatar-4.png" },
+        { "name": "User 5", "avatar": "assets/avatars/avatar-1.png" }
+      ],
+      "sharedUsersCount": 5
+    },
+    {
+      "id": 3,
+      "name": "Office.mp4",
+      "size": "1.8 GB",
+      "modifiedDate": "Dec 12, 2022",
+      "type": "video",
+      "icon": "assets/icons/icon-video.svg",
+      "sharedUsers": [
+        { "name": "User 1", "avatar": "assets/avatars/avatar-1.png" },
+        { "name": "User 2", "avatar": "assets/avatars/avatar-2.png" }
+      ],
+      "sharedUsersCount": 0
+    }
+  ],
+  "user": {
+    "name": "James Alto",
+    "avatar": "assets/avatars/avatar-1.png"
+  }
+}
